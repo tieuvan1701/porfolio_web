@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.layout-container {
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    background: #F0F0F6;
+}
+
+.sidebar {
+    width: 305px;
+    background: #FFF;
+    padding: 40px;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+}
+
+.right-nav {
+    display: flex;
+    width: 100px;
+    min-height: 100vh;
+    background: #FFF;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.profile-image {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile-name {
+    color: #2B2B2B;
+    /*H4 - 18px*/
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.6%; /*22.248px*/
+    text-transform: capitalize;
+   justify-content: center;
+}
+
+.profile-title {
+    color: #767676;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    /*Paragraph Progress - 15*/
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;/*160%*/
+    text-transform: capitalize;
+    align-items: center;
+}
